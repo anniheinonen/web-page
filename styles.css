@@ -31,6 +31,17 @@ nav {
     padding: 1%;
 }
 
+#user {
+    width: 30%;
+    margin-left: 5%;
+}
+
+h2 {
+    float: right;
+    margin-right: 30%;
+        
+}
+
 #rightsec {
     border-style: solid;
     width: 65%;
