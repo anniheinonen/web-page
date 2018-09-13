@@ -28,7 +28,7 @@ nav {
     border-style: solid;
     width: 29%;
     margin-left: 1%;
-    padding: 1%;
+    padding: 2.5%;
 }
 
 #user {
@@ -44,9 +44,9 @@ h2 {
 
 #rightsec {
     border-style: solid;
-    width: 65%;
+    width: 62%;
     float: right;
-    padding: 5% 0% 5% 0%;
+    height: 20%;
     margin-right: 1%;
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 
 .sec1 {
-    margin: 4%;
+    
 }
 
 hr {
