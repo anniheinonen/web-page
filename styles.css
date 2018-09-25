@@ -1,11 +1,22 @@
-
-header {
-    margin-bottom: 5%;
+body {
+    background-color: #ccffcc;
 }
+header {
+    padding-top: 2%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    display: block;
+    height: 80px;
+    color: #e6e6e6;
+}
+
 .title1 {
     display: inline;
     font-size: 4vw;
 }
+
 #logo {
     width: 5%;
     display: inline;
@@ -14,24 +25,47 @@ header {
 nav {
     display: inline;
     float: right;
+    margin: 2%;
     padding-right: 5%;
     width: 40%;
-    margin-top: 2.7%;
+    font-size: 120%;
+}
+
+#navigation {
+    color: #e6e6e6;
 }
 
 .link {
     text-decoration: none;
-    color: black;
+    color: #888;
     padding: 5%;
+}
+
+.col-container{
+    display: table;
+    width: 100%;
+    border-spacing: 20px;
 }
 
 #leftsec {
     border-style: solid;
-    width: 29%;
+    border-color: #888;
+    width: 30%;
     margin-left: 1%;
     padding: 2.5%;
+    display: table-cell;
+    background-color: azure;
+    color: #4acaa8;
+     
 }
 
+#rightsec {
+    border-style: solid;
+    border-color: #888;
+    width: 66%;
+    background-color: azure;
+    display: table-cell;
+}
 #user {
     width: 30%;
     margin-left: 0%;
@@ -39,15 +73,17 @@ nav {
 
 h2 {
     float: right;
-    margin-right: 20%;    
+    margin-right: 20%;  
+    color: #888;
 }
 
 h3 {
    display: inline-block;
+    color: #888;
 }
 
 #plus {
-    border: thin solid black;
+    border: thin solid #888;
     padding: 1.5%;
     display: inline-block;
     float: right;
@@ -59,19 +95,13 @@ h3 {
 }
 
 .words {
-    border: medium solid black;
+    border: medium solid #888;
     padding: 2%;
     margin: 1.5%;
-    display: inline;
+    display: inline-block;
+    background-color: #ccffcc;
 }
 
-#rightsec {
-    border-style: solid;
-    width: 62%;
-    float: right;
-    height: 500px;
-    margin-right: 1%;
-}
 
 .sec {
     display: inline-block;
@@ -99,4 +129,11 @@ hr {
     padding: 5%;
 }
 
+#fb {
+    border-right: medium solid grey;
+}
 
+footer {
+    background-color: #ccffcc;
+    height: 150px;
+}

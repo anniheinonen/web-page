@@ -13,65 +13,67 @@
         <img src="airplane.png" alt="Logo" id = logo>
         <h1 class = title1>FinTrav</h1>
         <nav>
-            <a href="/restaurants/" class = link>Restaurants</a> |
-            <a href="/hotels/" class = link>Hotels</a> |
-            <a href="hostels" class = link>Hostels</a> |
-            <a href="/cars/" class = link>Car Rentals</a>
+            <a href="/restaurants/" class = link id="navigation">Restaurants</a> |
+            <a href="/hotels/" class = link id="navigation">Hotels</a> |
+            <a href="hostels" class = link id="navigation">Hostels</a> |
+            <a href="/cars/" class = link id="navigation">Car Rentals</a>
         </nav>
     </header>
-    <div id = leftsec class = sec>
-        <img src="user.jpeg" alt="user" id=user>
-        <h2>Vladímir Putin</h2>
-        <h3>Información personal</h3>
-        <section class = sec1> 
-        <ul>
-            <li><b>Fecha de nacimiento</b>: 7/12/1952</li>
-            <li><b>Lugar de nacimiento</b>: Leningrado, Unión Soviética</li>
-            <li><b>Residencia</b>: Moscú, Rusia</li>
-            <li><b>Idioma</b>: Ruso</li>
-        </ul>
-        </section>
-        <hr/>
-        <h3>Últimas Opiniones</h3>
-        <section class = sec1> 
-            <h4><a href="https://sobarnes.com/en/russia/moscow/restaurant-buono-radisson-royal-hotel-italian-cook/" class = "link"><i>Buono</i></a></h4>
+    <div class= col-container>
+        <div id = leftsec class = sec>
+            <img src="user.jpeg" alt="user" id=user>
+            <h2>Vladímir Putin</h2>
+            <h3>Información personal</h3>
+            <section class = sec1> 
             <ul>
-                <li><b>Servicio</b>: ★★★★☆</li>
-                <li><b>Comida</b>: ★★★★★</li>
-                <li><b>Precio</b>: ★★☆☆☆</li>
-                <li><b>Ambiente</b>: ★★★★☆</li>
+                <li><b>Fecha de nacimiento</b>: 7/12/1952</li>
+                <li><b>Lugar de nacimiento</b>: Leningrado, Unión Soviética</li>
+                <li><b>Residencia</b>: Moscú, Rusia</li>
+                <li><b>Idioma</b>: Ruso</li>
             </ul>
-            <h4><a href="http://www.ritzcarlton.com/en/hotels/europe/moscow/dining/novikov-restaurant-bar" class = "link"><i>Novikov Restaurant & Bar</i></a></h4>
-            <ul>
-                <li><b>Servicio</b>: ★★★★☆</li>
-                <li><b>Comida</b>: ★★★★★</li>
-                <li><b>Precio</b>: ★★★★★</li>
-                <li><b>Ambiente</b>: ★★★★☆</li>
-            </ul>
-            <h4><a href="https://cafe-pushkin.ru//" class = "link"><i>Café Pushkin</i></a></h4>
-            <ul>
-                <li><b>Servicio</b>: ★★★★☆</li>
-                <li><b>Comida</b>: ★★★★★</li>
-                <li><b>Precio</b>: ★★★★☆</li>
-                <li><b>Ambiente</b>: ★★★★☆</li>
-            </ul>
-        </section>
-        <hr/>
-        <section>
-            <div id = "pref">
-                <h3>Mis preferencias</h3>
-                <p id= "plus">+</p>
-            </div>
-            <p class= words>☓ Amigos</p>
-            <p class= words>☓ Amigos</p>
-            <p class= words>☓ Amigos</p>
-        </section>
+            </section>
+            <hr/>
+            <h3>Últimas Opiniones</h3>
+            <section class = sec1> 
+                <h4><a href="https://sobarnes.com/en/russia/moscow/restaurant-buono-radisson-royal-hotel-italian-cook/" class = "link"><i>Buono</i></a></h4>
+                <ul>
+                    <li><b>Servicio</b>: ★★★★☆</li>
+                    <li><b>Comida</b>: ★★★★★</li>
+                    <li><b>Precio</b>: ★★☆☆☆</li>
+                    <li><b>Ambiente</b>: ★★★★☆</li>
+                </ul>
+                <h4><a href="http://www.ritzcarlton.com/en/hotels/europe/moscow/dining/novikov-restaurant-bar" class = "link"><i>Novikov Restaurant & Bar</i></a></h4>
+                <ul>
+                    <li><b>Servicio</b>: ★★★★☆</li>
+                    <li><b>Comida</b>: ★★★★★</li>
+                    <li><b>Precio</b>: ★★★★★</li>
+                    <li><b>Ambiente</b>: ★★★★☆</li>
+                </ul>
+                <h4><a href="https://cafe-pushkin.ru//" class = "link"><i>Café Pushkin</i></a></h4>
+                <ul>
+                    <li><b>Servicio</b>: ★★★★☆</li>
+                    <li><b>Comida</b>: ★★★★★</li>
+                    <li><b>Precio</b>: ★★★★☆</li>
+                    <li><b>Ambiente</b>: ★★★★☆</li>
+                </ul>
+            </section>
+            <hr/>
+            <section>
+                <div id = "pref">
+                    <h3>Mis preferencias</h3>
+                    <p id= "plus">+</p>
+                </div>
+                <p class= words>☓ Amigos</p>
+                <p class= words>☓ Amigos</p>
+                <p class= words>☓ Amigos</p>
+            </section>
+        </div>
+        <div id = rightsec class = sec></div>
     </div>
-    <div id = rightsec class = sec></div>
-    <footer>
+    <footer class=foot>
         <nav>
             <a href = "https://www.facebook.com">
-            <img src="facebook.png" class = icon>
+            <img src="facebook.png" class = icon id="fb">
             </a>
             <section class= border></section>
             <div class="vl"></div>
