@@ -1,3 +1,4 @@
+
 header {
     margin-bottom: 5%;
 }
@@ -33,13 +34,35 @@ nav {
 
 #user {
     width: 30%;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 h2 {
     float: right;
-    margin-right: 30%;
-        
+    margin-right: 20%;    
+}
+
+h3 {
+   display: inline-block;
+}
+
+#plus {
+    border: thin solid black;
+    padding: 1.5%;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+}
+
+#pref {
+    margin-bottom: 5%;
+}
+
+.words {
+    border: medium solid black;
+    padding: 2%;
+    margin: 1.5%;
+    display: inline;
 }
 
 #rightsec {
@@ -67,11 +90,13 @@ hr {
     padding: 0;
 }
 
+
 .icon {
     width: 8%;
+    display: inline;
+    float: right;
+    border-left: medium solid grey;
+    padding: 5%;
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 500px;
-}
+
